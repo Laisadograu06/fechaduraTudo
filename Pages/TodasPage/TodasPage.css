@@ -1,0 +1,68 @@
+.fundo {
+    background-image: url('../../src/assets/image/fundo.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    width: 100vw; 
+    display: flex;
+}
+
+.esquerda-todas {
+    width: 400px; 
+    padding: 20px; 
+    background-color: #f0f0f0ab; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    height: 100%;
+    color: black;
+    justify-content: center;
+}
+
+.cima {
+    text-align: center;
+}
+
+.button-todas {
+    padding: 10px;
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.baixo {
+    background-image: url('../../src/assets/image/foto.png'); 
+    background-size: cover; 
+    height: 31vh; 
+    width: 15vw;
+}
+
+.salas {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr; 
+    gap: 100px; 
+    margin-left: 450px; 
+    padding: 20px;
+}
+
+.salas-A, .salas-B, .salas-C {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px; 
+}
+
+.salas-A div, .salas-B div, .salas-C div {
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
